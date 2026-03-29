@@ -70,10 +70,22 @@ ollama pull llama3.2
 ```bash
 git clone <tu-repositorio>
 cd business-ia-meeting-companion
-python3 -m venv venv
-source venv/bin/activate
+```
+
+Crear y activar el entorno virtual:
+
+```bash
+python3 -m venv venv        # crea el entorno virtual en la carpeta venv/
+source venv/bin/activate     # activa el entorno virtual (veras "(venv)" en tu terminal)
+```
+
+Instalar las dependencias:
+
+```bash
 pip install -r requirements.txt
 ```
+
+> Cada vez que abras una terminal nueva, necesitas activar el entorno virtual con `source venv/bin/activate` antes de ejecutar los scripts.
 
 ## Ejecucion
 
